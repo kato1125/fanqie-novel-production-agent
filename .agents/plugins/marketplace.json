@@ -1,0 +1,20 @@
+{
+  "name": "fanqie-novel-agent-marketplace",
+  "interface": {
+    "displayName": "番茄小说 Agent"
+  },
+  "plugins": [
+    {
+      "name": "fanqie-novel-production-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fanqie-novel-production-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
