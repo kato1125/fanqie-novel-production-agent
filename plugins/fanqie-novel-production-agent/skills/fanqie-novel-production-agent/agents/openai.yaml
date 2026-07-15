@@ -1,0 +1,6 @@
+interface:
+  display_name: "番茄小说自动生产 Agent"
+  short_description: "从选题确认到番茄草稿保存的全流程小说生产与断点恢复"
+  default_prompt: "使用 $fanqie-novel-production-agent 读取我的独立配置，从工程包开始创建番茄小说，并在发布前停下。"
+policy:
+  allow_implicit_invocation: true
