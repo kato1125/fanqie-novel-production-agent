@@ -1,0 +1,6 @@
+interface:
+  display_name: "番茄短篇 GPTs 一次直出 Agent"
+  short_description: "人工选题、正文一次生成、GPTs合并Word并保存番茄草稿"
+  default_prompt: "使用 $fanqie-short-novel-gpts-agent，读取我的独立配置，从当前对话上传的工程包开始生产番茄短篇。"
+policy:
+  allow_implicit_invocation: true
