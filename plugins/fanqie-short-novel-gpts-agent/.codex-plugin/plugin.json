@@ -1,0 +1,35 @@
+{
+  "name": "fanqie-short-novel-gpts-agent",
+  "version": "0.1.0",
+  "description": "由指定 GPTs 一次性完成番茄短篇创作，保留人工选题关卡，并生成章节 Word、GPTs 合并版及番茄草稿。",
+  "author": {
+    "name": "一剑飘渺震九洲"
+  },
+  "keywords": [
+    "fanqie",
+    "short-novel",
+    "gpts",
+    "docx",
+    "human-topic-selection",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "番茄短篇 GPTs 一次直出 Agent",
+    "shortDescription": "人工选题、正文一次生成、GPTs 合并 Word 并保存番茄草稿",
+    "longDescription": "从当前对话上传的小说工程包开始，使用同一个指定 GPTs 完成选题、策划和逐章正文；全部选题必须由用户亲自选择，每章正文只生成一次，不进行全书文学复核。本地仅机械保存章节 Word，最终合并版 Word 由 GPTs 生成，并作为番茄正文的唯一来源。默认只保存草稿，不提交审核或发布。",
+    "developerName": "一剑飘渺震九洲",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write",
+      "Browser Automation",
+      "Document Generation"
+    ],
+    "defaultPrompt": [
+      "读取我的独立配置，从当前对话上传的工程包开始生产番茄短篇。",
+      "恢复这本短篇的生产断点，并继续到番茄草稿保存。",
+      "检查当前生产状态、已保存章节和下一步动作。"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "author_name": "请填写小说作者名",
+  "output_root": "~/Documents/自动小说",
+  "gpts": {
+    "url": "https://chatgpt.com/g/请填写",
+    "account_hint": "",
+    "use_current_chrome_session": true
+  },
+  "fanqie": {
+    "workbench_url": "",
+    "account_hint": "",
+    "use_current_chrome_session": true,
+    "ai_used": true,
+    "trial_ratio": 30,
+    "category_strategy": "agent_recommend_current_options"
+  },
+  "word": {
+    "template_path": "",
+    "visual_qa": false
+  },
+  "safety": {
+    "submit_for_review": false,
+    "publish": false
+  }
+}
